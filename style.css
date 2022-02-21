@@ -1,0 +1,32 @@
+html{
+    background-color: #CD9575;
+}
+
+.container{
+    width: 300px;
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    padding: 6px;
+    margin: 6px;
+}
+
+.guessSubmit {
+    background-color: lightgray;
+    border: rounded;
+    border-style: rounded;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

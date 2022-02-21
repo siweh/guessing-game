@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Guessing Game</title>
   </head>
   <body>
-    <h1>Guessing game</h1>
+    <div class="container">
+      <h1>Guessing game</h1>
+
+      <input
+        type="number"
+        id="guessField"
+        class="guessField"
+        placeholder="Guess a number"
+      />
+      <button type="submit" value="Submit guess" class="guessSubmit">
+        Submit guess
+      </button>
+
+      <div class="results">
+        <!-- <p class="guesses"></p>
+        <p class="lastResults"></p>
+        <p class="loworhighresults"></p> -->
+        <p></p>
+      </div>
+    </div>
+
+    <script src="guess.js"></script>
   </body>
 </html>
