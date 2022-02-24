@@ -20,8 +20,7 @@ input {
 .guessSubmit {
     background-color: lightgray;
     border: rounded;
-    border-style: rounded;
-    color: black;
+    border-style:hidden;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -29,4 +28,12 @@ input {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+
+.newNumber{
+    color: black;
 }
