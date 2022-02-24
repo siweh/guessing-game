@@ -29,6 +29,7 @@ function guessedNumber() {
   setTimeout(() => {
     results.innerHTML = '';
     error.innerHTML = '';
+    newNumber.innerHTML = '';
   }, 5000);
 }
 submitGuess.addEventListener('click', guessedNumber);
